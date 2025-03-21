@@ -43,7 +43,7 @@ python cache_sim_fa_lru.py
 
 # Analysis of the Three Test Cases
 
-1. Sequential Access (Test Case 1)
+# 1. Sequential Access (Test Case 1)
 
 Pattern:
   - Access memory blocks in order from 0 to 2n-1, repeating the sequence 4 times.
@@ -61,7 +61,7 @@ Observations:
 Use Case:
   - This pattern is inefficient for FA + LRU caches when working with datasets larger than the cache size.
 
-2. Random Access (Test Case 2)
+# 2. Random Access (Test Case 2)
 
  Pattern:
    - Access 4n random memory blocks.
@@ -81,7 +81,7 @@ Observations:
 Use Case:
   - This pattern simulates real-world workloads, such as random memory accesses in multitasking environments.
 
-3. Mid-Repeat Blocks (Test Case 3)
+# 3. Mid-Repeat Blocks (Test Case 3)
 
 Pattern:
   1. Access blocks 0 to n-1.
