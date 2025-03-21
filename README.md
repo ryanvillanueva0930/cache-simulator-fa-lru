@@ -22,12 +22,12 @@ python cache_sim_fa_lru.py
 
 # Usage
 
-1. Enter hte number of cache blocks when prompted.
+1. Enter The number of cache blocks when prompted.
 2. Choose one of the three test cases:
   - Sequential Access: Accesses 0 to 2n - 1 (where n = number of cache blocks) in order, repeated four times.
   - Random Access: Accesses 4n memory blocks in random order.
   - Mid-Repeat Blocks: Demonstrates accessing 0..n-1, repeating that range, then n..2n-1, with repetitions to test reuse and eviction patterns.
-3. After you select a test case, the program will:
+3. After you select a test case, Click Run Simulation the program will:
   - Perform the sequence of memory acccesses.
   - Print a Final Cache Snapshot to show which blocks remain in the cache
   - Save a detailed memory tracelog to a text file (e.g., sequential_access_log.txt, etc.)
